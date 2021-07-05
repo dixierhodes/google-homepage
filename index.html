@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google - Home</title>
-    <link rel="stylesheet" href="styles/main.scss" type="text/css">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
 </head>
 <body>
-
-    <div class="image__container">
-        <img class="image" src="assets/logo.png" alt="Google logo">
-    </div>
-    
+    <nav>
+        <div>
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><img src="./assets/apps.svg"></li>
+                <li><button class="sign">Sign in</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <figure>
+            <img class="image" src="assets/logo.png" alt="Google logo">
+        </figure>
+        <form class="search__container">
+            <button class="btn1" type="submit"><img class="icon" src="assets/search.svg"></button>
+            <input class="search" type="text">
+            <button class="btn2" type="submit"><img class="icon" src="assets/mic.png"></button>
+        </form>
+        <div class="buttons">
+            <button class="btns">Google Search</button>
+            <button class="btns">I'm Feeling Lucky</button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
