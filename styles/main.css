@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+}
+
+.image__container {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
